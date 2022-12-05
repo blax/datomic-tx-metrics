@@ -1,7 +1,7 @@
 (defproject datomic-tx-metrics "0.3.0"
   :description "Containing a callback handler for collecting Datomic Transactor + JVM metrics for consumption (e.g. by Prometheus) using a web endpoint offered by the included web server."
   :dependencies
-  [[aleph "0.4.6"]
+  [[aleph "0.5.0"]
    [bidi "2.1.6"]
    [com.taoensso/timbre "4.10.0"]
    [environ "1.1.0"]
